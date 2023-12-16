@@ -1,0 +1,17 @@
+{
+  "name": "world-wasm",
+  "collaborators": [
+    "katesirin <149036273+katesirin@users.noreply.github.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "world_wasm_bg.wasm",
+    "world_wasm.js",
+    "world_wasm.d.ts"
+  ],
+  "module": "world_wasm.js",
+  "types": "world_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

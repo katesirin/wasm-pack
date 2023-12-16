@@ -7,7 +7,7 @@
 
 <body>
   <script type="module">
-    import  { default as wasm, greet } from './pkg/world_wasm.js';
+    import  { default as wasm, greet } from './world_wasm.js';
 
     wasm().then((module) => {
       greet();
